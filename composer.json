@@ -1,0 +1,14 @@
+{
+  "name": "onshorehq/sdk",
+  "description": "Onshore client for PHP: store sensitive values in your in-country vault and work with tokens.",
+  "type": "library",
+  "keywords": ["onshore", "data-residency", "tokenization", "vault", "pii"],
+  "homepage": "https://docs.onshorevault.com/developers/sdks/php/",
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-sodium": "*"
+  },
+  "autoload": { "classmap": ["src/"] }
+}
